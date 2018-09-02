@@ -1,0 +1,5 @@
+/* transition */
+.trans8s {transition: all .8s !important;-webkit-transition: all .8s !important;-o-transition: all .8s !important;}
+.trans5s {transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
+.trans2s {transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
+.trans1s {transition: all .1s !important;-webkit-transition: all .1s !important;-o-transition: all .1s !important;}

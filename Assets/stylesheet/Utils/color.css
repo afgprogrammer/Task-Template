@@ -1,0 +1,19 @@
+/* Colors */
+.color999 {color: #999 !important;}
+.color777 {color: #777 !important;}
+.color555 {color: #555 !important;}
+.color333 {color: #333 !important;}
+.colorFFF {color: #fff !important;}
+.colorIcon {color: #b4c9d7 !important;}
+
+.bgFFF {background: #fff !important;}
+.bgEEE {background: #eee !important;}
+.bg333 {background: #333 !important;}
+.gradient1 {background: linear-gradient(120deg, #00aeff, #3369e7) !important;}
+.gradient2 {background: linear-gradient(120deg, #4776e6, #8e54e9) !important;}
+.gradient3 {background: linear-gradient(284deg, #1cc7d0, #2dde98) !important;}
+.gradient4 {background: linear-gradient(284deg, #ff512f, #dd2476) !important;}
+.gradient5 {background: linear-gradient(269deg, #8e43e6, #b84592) !important;}
+.gradient6 {background: linear-gradient(45deg, #3E396B 50%, #201C38 100%) !important;}
+.gradient7 {background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%) !important;}
+.gradient8 {background: linear-gradient(to right, #8e43e7 0%, #3369e7 30%, #00aeff 100%) !important;}

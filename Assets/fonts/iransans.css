@@ -1,0 +1,35 @@
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:700;
+    src:url(iransans/IRANSansWeb_Bold.eot);
+    src:url(iransans/IRANSansWeb_Bold.eot) format("embedded-opentype"),url(iransans/IRANSansWeb_Bold.woff2) format("woff2"),url(iransans/IRANSansWeb_Bold.woff) format("woff"),url(iransans/IRANSansWeb_Bold.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:500;
+    src:url(iransans/IRANSansWeb_Medium.eot);
+    src:url(iransans/IRANSansWeb_Medium.eot) format("embedded-opentype"),url(iransans/IRANSansWeb_Medium.woff2) format("woff2"),url(iransans/IRANSansWeb_Medium.woff) format("woff"),url(iransans/IRANSansWeb_Medium.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:300;
+    src:url(iransans/IRANSansWeb_Light.eot);
+    src:url(iransans/IRANSansWeb_Light.eot) format("embedded-opentype"),url(iransans/IRANSansWeb_Light.woff2) format("woff2"),url(iransans/IRANSansWeb_Light.woff) format("woff"),url(iransans/IRANSansWeb_Light.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:200;
+    src:url(iransans/IRANSansWeb_UltraLight.eot);
+    src:url(iransans/IRANSansWeb_UltraLight.eot) format("embedded-opentype"),url(iransans/IRANSansWeb_UltraLight.woff2) format("woff2"),url(iransans/IRANSansWeb_UltraLight.woff) format("woff"),url(iransans/IRANSansWeb_UltraLight.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:400;
+    src:url(iransans/IRANSansWeb.eot);
+    src:url(iransans/IRANSansWeb.eot) format("embedded-opentype"),url(iransans/IRANSansWeb.woff2) format("woff2"),url(iransans/IRANSansWeb.woff) format("woff"),url(iransans/IRANSansWeb.ttf) format("truetype")
+}
