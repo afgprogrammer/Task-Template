@@ -16,5 +16,262 @@
 /* core css */
 @import 'Utils/core.css';@import 'Utils/color.css';@import 'Utils/spacers.css';@import 'Utils/transition.css';
 
-body {background: #f1f1f1;font-size: 13px;overflow-x: hidden;direction: rtl;text-align: right;}
+body {background: #191c2e;font-size: 13px;overflow-x: hidden;direction: ltr;text-align: left;}
 * {font-family: 'iransans', sans-serif;font-weight: 300;}
+
+.effect {
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(75, 8, 60, 0.281);
+}
+
+#main-header {
+    background: #2b2e43;
+    height: auto;
+    max-height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#main-header .search {
+    height: 80px;
+    background: #3b3f53;
+    text-align: center;
+    width: 400px;
+    display: flex
+}
+
+#main-header .search input#search {
+    background: #3b3e52;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+}
+
+#main-header .icon:before {
+    line-height: 75px;
+    margin: 0 20px 0 30px;
+    font-size: 23px;
+}
+
+#main-header .account figure {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#main-header .account figcaption {
+    color: #fff;
+    margin: auto 10px;
+
+}
+
+#main-header .account .avatar {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #222;
+}
+.wrapper .menu-left {
+    padding: 80px 20px;
+}
+
+.wrapper .menu-left .list li {
+    text-align: center;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.wrapper .menu-left .list li a {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+    font-size: 13px;
+}
+
+.wrapper .menu-left .list li a.active .icon:before {
+    color: #38c3d5;
+}
+
+.wrapper .menu-left .list li a.active .text {
+    color: #fff;
+}
+
+.wrapper .menu-left .list li a .icon:before {
+    margin: 0;
+    color: #777;
+    font-size: 28px;
+}
+
+.wrapper .menu-left .list li a .text {
+    margin: 10px 0;
+}
+
+.wrapper .main-content {
+    background: #2b2e43;
+    position: relative;
+    right: -20px;
+}
+
+.wrapper .main-content .header-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #191c2e;
+}
+
+.wrapper .main-content .header-content .action .btn {
+    line-height: 20px;
+    border-radius: 0;
+    width: 180px;
+    font-weight: 700;
+    background: #4378eb;
+}
+
+.wrapper .main-content .header-content .action a {
+    margin: 0 20px;
+}
+
+.wrapper .main-content .header-content .list li a {
+    color: #ccc;
+    margin: 25px 10px 0 10px;
+    display: flex;
+}
+
+.wrapper .main-content .header-content .list li a .state {
+    border: 3px solid #eee;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.board span.icon {
+    cursor: pointer;
+}
+
+.main-content .header-content .list li a .state.red, 
+.main-content .dashboard .board.red,
+.board .board-content .task.red {
+    border-color: #f95a6c;
+}
+
+.main-content .header-content .list li a .state.yellow,
+.main-content .dashboard .board.yellow,
+.board .board-content .task.yellow {
+    border-color: #f5a623;
+}
+
+.main-content .header-content .list li a .state.green,
+.main-content .dashboard .board.green,
+.board .board-content .task.green {
+    border-color: #3fe671;
+}
+
+.main-content .header-content .list li a .state.blue,
+.main-content .dashboard .board.blue,
+.board .board-content .task.blue {
+    border-color: #4378eb;
+}
+
+.main-content .dashboard {
+    padding: 30px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.main-content .dashboard .board {
+    background: #303446;
+    border-top: 2px solid #ddd;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.main-content .dashboard .board > header {
+    padding: 20px;
+    background: #36394a;
+    color: #bbb;
+    position: relative;
+    border-bottom: 1px solid rgba(109, 106, 106, 0.452);
+}
+
+.main-content .dashboard .board h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.main-content .dashboard .board span.icon:before {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 21px;
+}
+
+.main-content .dashboard .board .board-content {
+    padding: 20px 30px 20px 5px;
+    overflow-y: scroll;
+    max-height: 600px;
+    position: relative;
+    right: -20px;
+}
+.board .board-content li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.board .board-content .task {
+    border-left: 3px solid #38c3d5;
+    padding: 10px;
+    cursor: pointer;
+}
+.board .board-content .task header {
+    position: relative;
+}
+.board .board-content .task header h3 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 500;
+    color: #444;
+}
+
+.board .board-content .task header span.icon:before {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    color: #777;
+}
+.board .board-content .task header span.icon:hover:before {
+    color: #4378eb;
+}
+
+.board .board-content .task .task-content {
+    padding: 0 10px 10px 10px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #848691;
+    max-height: 38px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper .menu-left {
+        padding: 20px;
+    }
+    
+    .wrapper .menu-left .list {
+        display: flex;
+    }
+
+    #main-header .search {
+        display: none;
+    }
+}
